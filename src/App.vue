@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-
+    <app-header></app-header>
     <app-navbar></app-navbar>
-
     <router-view></router-view>
 
   </div>
@@ -12,6 +10,7 @@
 
 <script>
 import NavBar from './Components/Header/NavBar.vue'
+import Header from './Components/Header/Header.vue'
 
 export default {
   name: 'app',
@@ -21,7 +20,8 @@ export default {
     }
   },
   components: {
-    'app-navbar': NavBar
+    'app-navbar': NavBar,
+    'app-header': Header
   }
 }
 </script>
