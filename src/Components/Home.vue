@@ -16,15 +16,10 @@
     </b-col>
   </b-row>
 </b-container>
-<<<<<<< HEAD
 <h2 class = "heading">About Us</h2>
 <p class = "paragraph">
     Night star events is a photobooth and sweetcart company covering the Northeast of England. We provide a excellent service and try to be the very best on the market. We cover a wide range of events from birthdays to weddings blah blah blah
     </p>
-=======
-<p>about us
- night star events is a photobooth and candy cart company covering the northeast of England. We provide a excellent service and try to be the very best on the market. We cover a wide range of events from birthdays to weddings blah blah blah</p>
->>>>>>> b0727129a3460d22a9f292d4c9d6b6aa8d2f57ce
 </div>
 </template>
 
@@ -46,7 +41,6 @@ export default {
 }
 
 .caption {
-<<<<<<< HEAD
     text-align: Left;
     color: white;
 }
@@ -58,10 +52,5 @@ export default {
 .heading {
     text-align: center;
 }
-=======
-    text-align: auto;
-    color: white;
-}
->>>>>>> b0727129a3460d22a9f292d4c9d6b6aa8d2f57ce
 </style>
 
