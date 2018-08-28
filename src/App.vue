@@ -2,31 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <!-- <li class="nav-item"> -->
-            <router-link class="nav-link active" tag="li" active-class="active" to="/">Home</router-link>
-          <!-- </li> -->
-          <li class="nav-item">
-               <router-link class="nav-link" tag="li" active-class="active" to="/gallery">Gallery</router-link>
-          </li>
-          <li class="nav-item">
-             <router-link class="nav-link"  tag="li" active-class="active" to="/pricing">Pricing</router-link>
-          </li>
-          <li class="nav-item">
-               <router-link class="nav-link" tag="li" active-class="active"  to="/blog">Blog</router-link>
-          </li>
-          <li class="nav-item">
-              <router-link class="nav-link" tag="li" active-class="active"  to="/contact">Contact</router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+
+    <app-navbar></app-navbar>
 
     <router-view></router-view>
 
@@ -34,12 +11,17 @@
 </template>
 
 <script>
+import NavBar from './Components/Header/NavBar.vue'
+
 export default {
   name: 'app',
   data () {
     return {
       msg: 'Night Star Events'
     }
+  },
+  components: {
+    'app-navbar': NavBar
   }
 }
 </script>
