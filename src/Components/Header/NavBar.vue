@@ -3,10 +3,17 @@
         <a class="navbar-brand">
         <router-link class="nav-link active" tag="a" active-class="active" to="/">Night Star Events</router-link>
         </a>
+<<<<<<< HEAD
       <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar" id="navbarNav">
+=======
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+>>>>>>> b0727129a3460d22a9f292d4c9d6b6aa8d2f57ce
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link class="nav-link active" tag="a" active-class="active" to="/">Home</router-link>
