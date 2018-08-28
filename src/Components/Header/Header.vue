@@ -1,6 +1,5 @@
 <template>
     <div class="header">
-            <!-- <img src="./assets/logo.png"> -->
   <img src="../../assets/smallLogo.jpg">
   <div class="header-right">
     <h3>Contact Details.....</h3>
