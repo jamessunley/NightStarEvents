@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-  <img src="../../assets/smallLogo.jpg">
+  <img class="logo" src="../../assets/smallLogo.jpg">
   <div class="header-right">
     <h5>Address: Derby Drive Consett</h5>
     <h5>Email: nightstarevents@outlook.com</h5>
@@ -57,6 +57,10 @@ body {
 
 .header-right {
   float: right;
+}
+
+.logo{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {

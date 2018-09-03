@@ -37,6 +37,7 @@ export default {
     max-width: 300px;
     min-width: 300px;
     min-height: 250px;
+    cursor: pointer;
     
 }
 
