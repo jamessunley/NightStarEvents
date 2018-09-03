@@ -2,7 +2,9 @@
     <div class="header">
   <img src="../../assets/smallLogo.jpg">
   <div class="header-right">
-    <h3>Contact Details.....</h3>
+    <h5>Address: Derby Drive Consett</h5>
+    <h5>Email: nightstarevents@outlook.com</h5>
+    <h5>Phone: +44 79084911367</h5>
   </div>
 </div>
 </template>

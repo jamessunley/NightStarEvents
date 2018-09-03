@@ -2,17 +2,17 @@
 <div>
 <b-container fluid class="p-4 bg-dark">
   <b-row>
-    <b-col>
+    <b-col class = "test">
       <b-img class = "img" thumbnail fluid src="../static/Sweetcart.jpeg" alt="Thumbnail" />
-      <h3 class = "caption">Sweetcart</h3>
+      <h3 class = "captions">Sweetcart</h3>
     </b-col>
-    <b-col>
+    <b-col class = "test">
       <b-img class = "img" thumbnail fluid src="../static/Booth.jpg" alt="Thumbnail" />
-      <h3 class = "caption">PhotoBooth</h3>
+      <h3 class = "captions">PhotoBooth</h3>
     </b-col>
-    <b-col>
+    <b-col class = "test1">
       <b-img class = "img" thumbnail fluid src="../static/Packages.jpg" alt="Thumbnail" />
-      <h3 class = "caption">Packages</h3>
+      <h3 class = "captions">Packages</h3>
     </b-col>
   </b-row>
 </b-container>
@@ -40,17 +40,29 @@ export default {
     
 }
 
-.caption {
+.captions {
     text-align: Left;
     color: white;
 }
 
 .paragraph {
     text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .heading {
     text-align: center;
+}
+
+.test{
+  padding-left: 75px;
+  padding-right: 50px;
+}
+
+.test1
+{
+  padding-left: 75px;
 }
 </style>
 
