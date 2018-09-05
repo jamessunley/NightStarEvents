@@ -25,13 +25,15 @@
       </v-card-title>
 
       <v-card-actions class="grey darken-3 justify-center">
-        &copy;2018 — <strong>Vuetify</strong>
+        &copy;2018 — <strong>Night Star Events</strong>
       </v-card-actions>
     </v-card>
   </v-footer>
 </template>
 
+
 <script>
+
   export default {
     data: () => ({
       icons: [
