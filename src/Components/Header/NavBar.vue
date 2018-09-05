@@ -9,7 +9,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link active" tag="a" active-class="active" to="/">Home</router-link>
+            <router-link class="nav-link" tag="a" active-class="active" to="/" exact>Home</router-link>
           </li>
           <li class="nav-item">
                <router-link class="nav-link" tag="a" active-class="active" to="/gallery">Gallery</router-link>
