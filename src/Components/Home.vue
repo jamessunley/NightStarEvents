@@ -2,16 +2,22 @@
 <div>
 <b-container fluid class="p-4 bg-dark">
   <b-row>
-    <b-col class = "test">
+    <b-col>
+      <router-link class="img-position" tag="a" active-class="active" to="/sweetcart">
       <b-img class = "img" thumbnail fluid src="../static/Sweetcart.jpeg" alt="Thumbnail" />
+      </router-link>
       <h3 class = "captions">Sweetcart</h3>
     </b-col>
-    <b-col class = "test">
+    <b-col>
+      <router-link class="img-position" tag="a" active-class="active" to="/photobooth">
       <b-img class = "img" thumbnail fluid src="../static/Booth.jpg" alt="Thumbnail" />
+      </router-link>
       <h3 class = "captions">PhotoBooth</h3>
     </b-col>
-    <b-col class = "test1">
+    <b-col>
+      <router-link class="img-position" tag="a" active-class="active" to="/packages">
       <b-img class = "img" thumbnail fluid src="../static/Packages.jpg" alt="Thumbnail" />
+      </router-link>
       <h3 class = "captions">Packages</h3>
     </b-col>
   </b-row>
@@ -42,7 +48,7 @@ export default {
 }
 
 .captions {
-    text-align: Left;
+    text-align: center;
     color: white;
 }
 
@@ -56,13 +62,7 @@ export default {
     text-align: center;
 }
 
-.test{
-  padding-left: 75px;
-  padding-right: 50px;
-}
-
-.test1
-{
+.img-position{
   padding-left: 75px;
 }
 </style>
