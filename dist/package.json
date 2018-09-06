@@ -2,6 +2,9 @@
   "name": "nightstarevents",
   "description": "A vue.js project for nightstarevents website",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "author": "James Sunley",
   "license": "MIT",
   "private": true,
