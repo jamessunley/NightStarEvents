@@ -1,8 +1,8 @@
 <template>
 
 <v-layout>
-    <v-flex xs12 sm6 offset-sm2>
-      <v-card width="1000px" >
+    <v-flex md12 sm6 offset-sm2>
+      <v-card width="80%" >
         <v-img
           class="white--text"
           height="200px"
@@ -107,7 +107,7 @@ export default {
 
 <style>
 
-.img-booth {
+/* .img-booth {
     max-height: 600px;
     max-width: 1000px;
     min-width: 300px;
@@ -125,10 +125,6 @@ export default {
     text-align: center;
     padding-right: 40px;
     padding-left: 40px;
-}
-
-.heading {
-    text-align: right;
-}
+} */
 </style>
 
