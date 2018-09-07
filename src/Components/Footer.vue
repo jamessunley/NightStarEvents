@@ -19,8 +19,10 @@
           class="mx-3"
           dark
           icon
+          v-on:click="say(icon)"
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size="24px" >{{ icon }}</v-icon>
+          
         </v-btn>
       </v-card-title>
 
@@ -35,6 +37,15 @@
 <script>
 
   export default {
+    methods: {
+    say: function (message) {
+      if(message == 'fab fa-facebook')
+      {
+      window.location.href = "https://www.facebook.com/nightstarevents2/?fb_dtsg_ag=Adxsst_HC4sXJRF4FI-FUwBbWwTKKIjt7oHw1Z5pndpgtA%3AAdztlBwWDQxQJz1YS0Pi1YaOEHsWI-jENJrw8e_rk1KFUg"
+      }
+
+    }
+  },
     data: () => ({
       icons: [
         'fab fa-facebook',

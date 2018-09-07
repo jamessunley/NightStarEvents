@@ -1,24 +1,24 @@
 <template>
 <div>
-<b-container fluid class="p-4 bg-dark">
+<b-container fluid class="p-3 bg-dark md">
   <b-row>
     <b-col>
       <router-link class="img-position" tag="a" active-class="active" to="/sweetcart">
       <b-img class = "img" thumbnail fluid src="../static/Sweetcart.jpeg" alt="Thumbnail" />
       </router-link>
-      <h3 class = "captions">Sweetcart</h3>
+      <h4 class = "captions">Sweetcart</h4>
     </b-col>
     <b-col>
       <router-link class="img-position" tag="a" active-class="active" to="/photobooth">
       <b-img class = "img" thumbnail fluid src="../static/Booth.jpg" alt="Thumbnail" />
       </router-link>
-      <h3 class = "captions">PhotoBooth</h3>
+      <h4 class = "captions">PhotoBooth</h4>
     </b-col>
     <b-col>
       <router-link class="img-position" tag="a" active-class="active" to="/packages">
       <b-img class = "img" thumbnail fluid src="../static/Packages.jpg" alt="Thumbnail" />
       </router-link>
-      <h3 class = "captions">Packages</h3>
+      <h4 class = "captions">Packages</h4>
     </b-col>
   </b-row>
 </b-container>
@@ -38,6 +38,7 @@ export default {
 </script>
 
 <style>
+
 .img {
     max-height: 250px;
     max-width: 300px;

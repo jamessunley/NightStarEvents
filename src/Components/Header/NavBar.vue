@@ -1,29 +1,38 @@
 <template>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">
-        <router-link class="nav-link active" tag="a" active-class="active" to="/">Night Star Events</router-link>
-        </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link class="nav-link" tag="a" active-class="active" to="/" exact>Home</router-link>
-          </li>
-          <li class="nav-item">
-               <router-link class="nav-link" tag="a" active-class="active" to="/gallery">Gallery</router-link>
-          </li>
-          <li class="nav-item">
-             <router-link class="nav-link"  tag="a" active-class="active" to="/pricing">Pricing</router-link>
-          </li>
-          <li class="nav-item">
-               <router-link class="nav-link" tag="a" active-class="active"  to="/blog">Blog</router-link>
-          </li>
-          <li class="nav-item">
-              <router-link class="nav-link" tag="a" active-class="active"  to="/contact">Contact</router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<b-navbar toggleable="md" type="light" variant="warning">
+
+  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+  <b-navbar-brand>
+  <router-link class="nav-link" tag="a" active-class="active" to="/">Night Star Events</router-link>
+  </b-navbar-brand>
+
+  <b-collapse is-nav id="nav_collapse">
+
+    <b-navbar-nav>
+      <b-nav-item>
+        <router-link class="nav-link" tag="a" active-class="active" to="/" exact>Home</router-link>
+      </b-nav-item>
+      <b-nav-item>
+        <router-link class="nav-link" tag="a" active-class="active" to="/gallery">Gallery</router-link>
+      </b-nav-item>
+      <b-nav-item>
+        <router-link class="nav-link" tag="a" active-class="active" to="/pricing">Pricing</router-link>
+      </b-nav-item>
+      <b-nav-item>
+        <router-link class="nav-link" tag="a" active-class="active" to="/blog">Blog</router-link>
+      </b-nav-item>
+      <b-nav-item>
+        <router-link class="nav-link" tag="a" active-class="active" to="/contact">Contact</router-link>
+      </b-nav-item>
+    </b-navbar-nav>
+  </b-collapse>
+</b-navbar>
 </template>
+
+<style>
+.nav-link{
+  color:black;
+}
+</style>
+
