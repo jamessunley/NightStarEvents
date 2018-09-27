@@ -30,5 +30,8 @@ export default {
 </script>
 
 <style>
-
+body {
+   background-image: url("./assets/background.jpg");
+   background-color: #cccccc;
+}
 </style>

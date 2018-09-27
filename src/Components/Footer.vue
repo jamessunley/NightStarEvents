@@ -21,7 +21,7 @@
           icon
           v-on:click="say(icon)"
         >
-          <v-icon size="24px" >{{ icon }}</v-icon>
+          <v-icon size="24px" color="black" >{{ icon }}</v-icon>
           
         </v-btn>
       </v-card-title>
@@ -50,8 +50,6 @@
       icons: [
         'fab fa-facebook',
         'fab fa-twitter',
-        'fab fa-google-plus',
-        'fab fa-linkedin',
         'fab fa-instagram'
       ]
     })
@@ -62,5 +60,6 @@
 
 .subheading{
   color: black !important;
+  size: 24px;
 }
 </style>
