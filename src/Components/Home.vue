@@ -66,5 +66,7 @@ export default {
 .img-position{
   padding-left: 75px;
 }
+
+
 </style>
 

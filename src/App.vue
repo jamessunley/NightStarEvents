@@ -1,9 +1,13 @@
 <template>
   <div id="app">
-    
+
     <app-header></app-header>
     <app-navbar></app-navbar>
+        <div class="wrapper">
+          <div class="content">
     <router-view></router-view>
+    </div>
+        </div>
     <app-footer></app-footer>
 
   </div>
@@ -33,5 +37,17 @@ export default {
 body {
    background-image: url("./assets/background.jpg");
    background-color: #cccccc;
+   
+}
+
+.wrapper{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  
+}
+
+.content{
+  flex: 1 0 auto;
 }
 </style>

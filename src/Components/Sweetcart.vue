@@ -1,5 +1,5 @@
 <template>
-
+<div>
 <v-layout>
     <v-flex md12 sm6 offset-sm2>
       <v-card width="80%" >
@@ -45,7 +45,7 @@
       </v-card>
     </v-flex>
   </v-layout>
-
+</div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <v-footer
+  <v-footer class="footer"
     dark
     height="auto"
   >
@@ -61,5 +61,9 @@
 .subheading{
   color: black !important;
   size: 24px;
+}
+
+.footer{
+  flex-shrink: 0;
 }
 </style>
