@@ -1,5 +1,5 @@
 <template>
-<b-navbar toggleable="md" type="light" variant="warning">
+<b-navbar toggleable="md" type="light" variant="purple">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -33,6 +33,10 @@
 <style>
 .nav-link{
   color:black;
+}
+
+.bg-purple {
+      background-color: #FFEE58 !important;
 }
 </style>
 

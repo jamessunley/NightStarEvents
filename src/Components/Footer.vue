@@ -8,7 +8,7 @@
       flat
       tile
     >
-      <v-card-title class="amber text--darken-4">
+      <v-card-title class="yellow lighten-1">
         <strong class="subheading">Get connected with us on social networks!</strong>
 
         <v-spacer></v-spacer>
@@ -57,3 +57,10 @@
     })
   }
 </script>
+
+<style>
+
+.subheading{
+  color: black !important;
+}
+</style>
